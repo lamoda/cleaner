@@ -1,0 +1,30 @@
+{
+    "name": "lamoda/cleaner",
+    "description": "Library for clean old data from different storages",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "doctrine/dbal": "^2.6",
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "phpunit/phpunit": "^7.5"
+    },
+    "suggest": {
+        "lamoda/cleaner-bundle": "For integration with Symfony"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lamoda\\Cleaner\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lamoda\\CleanerTests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
