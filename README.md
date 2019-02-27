@@ -1,5 +1,10 @@
 # Lamoda cleaner
 
+[![Build Status](https://travis-ci.org/lamoda/cleaner.svg?branch=master)](https://travis-ci.org/lamoda/cleaner)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lamoda/cleaner/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lamoda/cleaner/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/lamoda/cleaner/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/lamoda/cleaner/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/lamoda/cleaner/badges/build.png?b=master)](https://scrutinizer-ci.com/g/lamoda/cleaner/build-status/master)
+
 Library that provides classes to clear old data from different storages, firstly from databases.
 
 ## Installation
