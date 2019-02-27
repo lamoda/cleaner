@@ -24,7 +24,7 @@ class DBCleanerConfigFactory
     /**
      * @param array $configList
      *
-     * @return Config\QueryConfig[]
+     * @return QueryConfig[]
      */
     private static function prepareQueriesConfig(array $configList): array
     {
