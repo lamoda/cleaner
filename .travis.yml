@@ -17,7 +17,8 @@ env:
 
 matrix:
     fast_finish: true
-    #allow_failures:
+    allow_failures:
+        - php: 7.4snapshot
         #- php: nightly
 
 install:
