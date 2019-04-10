@@ -2,6 +2,12 @@
     "name": "lamoda/cleaner",
     "description": "Library for clean old data from different storages",
     "type": "library",
+    "authors": [
+        {
+            "name": "Lamoda developers",
+            "homepage": "https://tech.lamoda.ru/"
+        }
+    ],
     "require": {
         "php": "^7.1"
     },
