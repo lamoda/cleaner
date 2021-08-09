@@ -14,7 +14,8 @@
     "require-dev": {
         "doctrine/dbal": "^2.6",
         "friendsofphp/php-cs-fixer": "^2.14",
-        "phpunit/phpunit": "^7.5.20 || ^8.5.12 || ^9.0"
+        "phpunit/phpunit": "^7.5.20 || ^8.5.12 || ^9.0",
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "suggest": {
         "lamoda/cleaner-bundle": "For integration with Symfony"
@@ -31,9 +32,6 @@
         }
     },
     "config": {
-        "platform": {
-            "php": "7.2"
-        },
         "sort-packages": true
     }
 }
